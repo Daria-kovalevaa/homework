@@ -68,7 +68,7 @@ header span {
     /* Стили для второй секции */
 }
 
-select {
+.sselect {
     width: 150px;
     padding: 8px;
     font-weight: 400;
