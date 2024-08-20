@@ -87,7 +87,7 @@ select {
 
 .frameworks-list {
     padding-left: 20px;
-    list-style-image: url('C:/Users/Admin/Desktop/homework/Vector.svg');
+    list-style-image: url('./Vector.svg');
     font-weight: 400;
     font-size: 16px;
     /* Стили для маркированного списка во второй секции */
