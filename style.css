@@ -16,7 +16,7 @@ body {
 }
 
 header {
-    background-color: rgb(32, 7, 34);
+    background-color: rgb(41, 101, 241);
     Width: 1440px;
     Height: 70px;
     padding-top: 23px;
@@ -34,7 +34,7 @@ header span {
 }
 
 .main-section {
-    background-color: antiquewhite;
+    background-color:rgba(250, 250, 255, 1);
     padding-top: 60px;
     padding-bottom: 60px;
     min-height: auto;
@@ -61,7 +61,7 @@ header span {
 
 
 .about-section {
-    background-color: antiquewhite;
+    background-color: rgba(250, 250, 255, 1);
     padding-top: 100px;
     padding-bottom: 100px;
 
@@ -73,7 +73,7 @@ select {
     padding: 8px;
     font-weight: 400;
     font-size: 16px;
-    list-style-image: url('C:/Users/Admin/Desktop/homework/ep_arrow-down.svg')
+    list-style-image: url('./ep_arrow-down.svg')
     /* Стили для выпадающего списка */
 }
 
@@ -117,14 +117,14 @@ select {
 }
 
 .btn {
+    border: 0;
     width: 125px;
     height: 36px;
     border-radius: 5px;
     font-weight: 700;
     font-size: 14px;
-    color: rgb(240, 226, 241);
-    background-color: rgb(32, 7, 34);
-    
+    color:rgba(255, 255, 255, 1);
+    background-color: rgba(41, 101, 241, 1);
 
     /* Стили для кнопки */
 }
@@ -151,7 +151,7 @@ th, td {
 }
 
 footer {
-    background-color: rgb(201, 189, 173);
+    background-color:rgba(163, 167, 255, 0.3);
     padding-top: 26px;
     padding-bottom: 26px;
     /* Стили для футера */
@@ -159,6 +159,6 @@ footer {
 
 .footer-link {
     font-family: "Inter", sans-serif;
-    color: #303030; 
+    color: rgba(41, 101, 241, 1);
     /* Стили для футера */
 }
